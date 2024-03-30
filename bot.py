@@ -30,7 +30,7 @@ async def start_handler(c, m):
         InlineKeyboardButton('Updates', url='https://t.me/Movies_Telugu_Top')
     ],
               [
-        InlineKeyboardButton('Add me to your group', url='http://t.me/Automatic_accept_requests_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat')
+        InlineKeyboardButton('Add me to your Channel', url='http://t.me/Automatic_accept_requests_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat')
     ],
               [
         InlineKeyboardButton('Add me to your group', url='http://t.me/Automatic_accept_requests_bot?startgroup=Bots4Sale&admin=invite_users+manage_chat')
