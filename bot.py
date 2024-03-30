@@ -7,7 +7,7 @@ import asyncio, datetime, time
 
 
 ACCEPTED_TEXT = "Hey {user}\n\nYour Request For {chat} Is Accepted ✅"
-START_TEXT = "Hai {}\n\nI am Auto Request Accept Bot With Working For All Channel. Just Add Me In Your Channel To Use, I will accept all upcoming requests."
+START_TEXT = "Hai {}\n\nI am Auto Request Accept Bot With Working For All Channel.\n Just Add Me In Your Channel To Use, I will accept all upcoming requests."
 
 API_ID = int(env.get('API_ID'))
 API_HASH = env.get('API_HASH')
