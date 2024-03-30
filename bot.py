@@ -27,12 +27,13 @@ async def start_handler(c, m):
     user_id = m.from_user.id
     if not await Data.find_one({'id': user_id}): await Data.insert_one({'id': user_id})
     button = [[        
-        InlineKeyboardButton('Updates', url='https://t.me/Movies_Telugu_Top'),
-        InlineKeyboardButton('Support', url='https://t.me/+FzSc5rORvqk5YjM1')
+        InlineKeyboardButton('Updates', url='https://t.me/Movies_Telugu_Top')
     ],
              [
-        InlineKeyboardButton('Add me To Your Channel', url='https://t.me/Movies_Telugu_Top'),
-        InlineKeyboardButton('Add me to your group', url='https://t.me/+FzSc5rORvqk5YjM1')
+        InlineKeyboardButton('Add me To Your Channel', url=http://t.me/Automatic_accept_requests_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat')
+       ]
+            [
+        InlineKeyboardButton('Add me to your group', url='http://t.me/Automatic_accept_requests_bot?startgroup=Bots4Sale&admin=invite_users+manage_chat')
              ]]
     return await m.reply_text(text=START_TEXT.format(m.from_user.mention), disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(button))
           
