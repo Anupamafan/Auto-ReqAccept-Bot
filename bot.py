@@ -33,7 +33,7 @@ async def start_handler(c, m):
              [
         InlineKeyboardButton('Add me To Your Channel', url='https://t.me/Movies_Telugu_Top'),
         InlineKeyboardButton('Add me to your group', url='https://t.me/+FzSc5rORvqk5YjM1')
-             ]
+             ]]
     return await m.reply_text(text=START_TEXT.format(m.from_user.mention), disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(button))
           
 
